@@ -4,11 +4,12 @@
 https://stackoverflow.com/questions/76800833/how-navigate-directly-to-sibling-widgets-in-flutter-without-going-back
 
 The goal is :
-a) Prevent tab change when user is editing something, have a callback confirming user to discard unsaved changes
-b) Deep Linking on tabs, and sub pages after each tabs
-c) Returning to the root page , not on tab changes, but on Navigation Pop only (all 3 tabs popped)
-d) Tab change smooth animation
-e) First tab push smooth animation
+
+- a) Prevent tab change when user is editing something, have a callback confirming user to discard unsaved changes
+- b) Deep Linking on tabs, and sub pages after each tabs
+- c) Returning to the root page , not on tab changes, but on Navigation Pop only (all 3 tabs popped)
+- d) Tab change smooth animation
+- e) First tab push smooth animation
 
 There are 3 options: 
 1) Use Flutter TabView
